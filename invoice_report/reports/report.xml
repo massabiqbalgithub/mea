@@ -1,0 +1,14 @@
+<odoo>
+
+
+    <report
+        id="report_account_invoice"
+        string="Invoice Report"
+        model="account.move"
+        report_type="qweb-pdf"
+        file="invoice_report.report_account_invoice_template"
+        name="invoice_report.report_account_invoice_template"
+    />
+
+
+</odoo>
